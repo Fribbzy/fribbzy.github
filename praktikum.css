@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-color: #92C6ED;
+    background-image: url(bilder/binarcode.jpg);
+    height: 205px;
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+    background-repeat:repeat-y;
+    -moz-background-size:100%;
+    background-size:cover;
+    
+}
+
+header, nav, article, footer {
+    display: block;
+}
+
+#mittig {
+    width: 950px;
+    margin: 0 auto;
+    text-align: left;
+    background-image: url(bilder/spalte.jpg);
+}
+
+header {
+     background-color:red;
+     color:yellow;
+     background-image: url(bilder/headline.jpg);
+     height:200px;
+}
+
+header p {
+    color: white;
+    text-align: right;
+    font-size: 1.3em;
+    ont-weight: bold;
+    padding: 5px 20px;
+}
+
+nav {
+    float: left;
+    width: 190px;
+    margin-left: 2em;
+    color: white;
+    font-size:17px;
+    padding-top:2em;
+}
+
+nav ul {
+    padding-left: 1em;
+    list-style-type: circle;
+    margin-bottom:-20px;
+}
+
+nav ul ul {
+    margin-left: 1em;
+    list-style-type: square;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+article {
+    margin-left: 280px;
+    margin-right: 40px;
+}
+
+footer {
+    background-color: #4B677D;
+    clear: both;
+    color: white;
+
+}
+
+footer p {
+    font-size: .8em;
+    padding: 3px 2em;
+}
+
+footer a {
+    color: white;
+}
+
+.bildrechts {
+    float: right;
+    border: 1px solid silver;
+    background-color: #EEEEEE;
+    margin: 10px 0 10px 10px;
+    padding: 10px;
+}
+
+.bildlinks {
+    float: left;
+    border: 1px solid silver;
+    background-color: #EEEEEE;
+    margin: 10px 10px 10px 0px;
+    padding: 10px;    
+}
+
+h1 {
+    font-size: 1.6em;
+    text-decoration:underline;
+}
+
+h2 {
+    font-size: 1.4em;
+}
+
+h3 {
+    font-size: 1.2em;
+    padding-top: 2em;
+    
+}
+section {
+    margin-left:20em;
+    margin-right:1.5em;
+}
+
+p, ul, ol, dl {
+    padding-bottom: 1.4em;
+    line-height: 1.8em;
+}
+
+table , tbody {
+    line-height: 1.6em;
+}
+
+table, tr, td {
+    border: 1px solid silver;
+}
+
+a:hover {
+	color:red; 
+	background-color:transparent; 
+	text-decoration:underline
+}
